@@ -1,0 +1,167 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #05ad2a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* NAVIGATION */
+nav ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+/* SEARCH */
+.search-box {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-btn {
+    padding: 10px 15px;
+    border: none;
+    background: gold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-btn:hover {
+    background: orange;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/books.jfif);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.start-btn {
+    margin-top: 15px;
+    padding: 12px 20px;
+    border: none;
+    background: #004080;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background: #0059b3;
+}
+
+/* FEATURES */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.features div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.features ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.features ul li {
+    margin-bottom: 8px;
+}
+
+.features ul li a {
+    text-decoration: none;
+    color: #004080;
+    transition: 0.3s;
+}
+
+.features ul li a:hover {
+    color: green;
+    padding-left: 5px;
+}
+
+.features div:hover {
+    transform: translateY(-5px);
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+/* FOOTER */
+footer {
+    background: #00264d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
